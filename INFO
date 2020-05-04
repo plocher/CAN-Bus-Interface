@@ -5,5 +5,5 @@ fabricated: yes
 fab_date: 2010-07
 status: experimental
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Adapter, LCB]
 image_path: CAN-Bus-Interface-Graphic.png
