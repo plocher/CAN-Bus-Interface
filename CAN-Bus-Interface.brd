@@ -731,7 +731,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.576" y="15.5194" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="44.958" y="14.7066" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="TERM" library="pinhead" package="1X02" value="" x="27.432" y="38.1" smashed="yes">
+<element name="TERM" library="pinhead" package="1X02" value="0.100" x="27.432" y="38.1" smashed="yes">
 <attribute name="NAME" x="31.6992" y="35.4838" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="24.892" y="34.925" size="1.27" layer="27"/>
 </element>

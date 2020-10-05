@@ -5245,7 +5245,7 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <parts>
 <part name="R4" library="rcl" deviceset="R-US_" device="0204/5" value="120R"/>
 <part name="U2" library="MCP" deviceset="MCP2551" device="-P"/>
-<part name="TERM" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="TERM" library="pinhead" deviceset="PINHD-1X2" device="" value="0.100"/>
 <part name="J4" library="con-phoenix-508" deviceset="MST4V" device=""/>
 <part name="V6" library="supply2" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/5" value="470R"/>
