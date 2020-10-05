@@ -5256,14 +5256,14 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <part name="RES1" library="SparkFun" deviceset="RESONATOR" device="PTH"/>
 <part name="U1" library="MCP" deviceset="MCP2515" device="-P"/>
 <part name="L1" library="MCP" deviceset="ZJYS51R5" device="-2P"/>
-<part name="LED1" library="MCP" deviceset="LED" device="B155"/>
-<part name="LED2" library="MCP" deviceset="LED" device="B155"/>
-<part name="LED3" library="MCP" deviceset="LED" device="B155"/>
+<part name="LED1" library="MCP" deviceset="LED" device="B155" value="O"/>
+<part name="LED2" library="MCP" deviceset="LED" device="B155" value="G"/>
+<part name="LED3" library="MCP" deviceset="LED" device="B155" value="B"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="PTH2" value="0.1uf"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="PTH2" value="0.1uf"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun" deviceset="M13" device=""/>
+<part name="J1" library="SparkFun" deviceset="M13" device="" value="0.100"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="CANPWR" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>

@@ -15,37 +15,37 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="34" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="3" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="47" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="36" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -89,36 +89,36 @@
 <wire x1="50.762" y1="0.005" x2="50.546" y2="40.386" width="0" layer="20"/>
 <wire x1="50.546" y1="40.386" x2="0" y2="40.386" width="0" layer="20"/>
 <wire x1="0" y1="40.386" x2="0.038" y2="0.005" width="0" layer="20"/>
-<text x="49.911" y="11.176" size="1.27" layer="48" font="vector" rot="R90">Component Side</text>
+<text x="49.911" y="11.176" size="1.27" layer="21" font="vector" rot="R90">Component Side</text>
 <text x="48.768" y="12.7" size="1.27" layer="26" font="vector" rot="MR90">Solder Side</text>
-<text x="21.209" y="19.685" size="1.016" layer="48" font="vector" rot="R180">John Plocher</text>
-<text x="45.339" y="5.08" size="0.6096" layer="48" font="vector">2010.07</text>
-<text x="37.338" y="5.08" size="1.016" layer="48" font="vector">Rev. 1.0</text>
-<text x="33.528" y="5.08" size="1.27" layer="48" font="vector" rot="R90">Vcc</text>
-<text x="3.048" y="5.08" size="1.27" layer="48" font="vector" rot="R90">Gnd</text>
-<text x="30.988" y="5.08" size="1.27" layer="48" font="vector" rot="R90">SCK</text>
-<text x="25.908" y="5.08" size="1.27" layer="48" font="vector" rot="R90">SI</text>
-<text x="28.448" y="5.08" size="1.27" layer="48" font="vector" rot="R90">SO</text>
-<text x="23.368" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/CS</text>
-<text x="21.082" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/INT</text>
-<text x="16.002" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/TX0</text>
-<text x="13.462" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/TX1</text>
-<text x="10.922" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/TX2</text>
-<text x="8.128" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/RX0</text>
-<text x="5.588" y="5.08" size="1.27" layer="48" font="vector" rot="R90">/RX1</text>
-<text x="18.542" y="5.08" size="1.27" layer="48" font="vector" rot="R90">SOF</text>
-<text x="47.752" y="31.242" size="0.8128" layer="48" font="vector" rot="R180">/INT</text>
-<text x="41.91" y="31.242" size="0.8128" layer="48" font="vector" rot="R180">TXD</text>
-<text x="36.068" y="31.242" size="0.8128" layer="48" font="vector" rot="R180">RXD</text>
-<text x="37.338" y="7.366" size="1.27" layer="48" font="vector">CAN/NMRAnet</text>
-<text x="4.572" y="31.496" size="0.8128" layer="48" font="vector" rot="R180">Vcc</text>
-<text x="10.414" y="31.496" size="0.8128" layer="48" font="vector" rot="R180">CANH</text>
-<text x="15.24" y="31.496" size="0.8128" layer="48" font="vector" rot="R180">CANL</text>
-<text x="20.32" y="31.496" size="0.8128" layer="48" font="vector" rot="R180">GND</text>
+<text x="21.209" y="19.685" size="1.016" layer="21" font="vector" rot="R180">John Plocher</text>
+<text x="45.339" y="5.08" size="0.6096" layer="21" font="vector">2010.07</text>
+<text x="37.338" y="5.08" size="1.016" layer="21" font="vector">Rev. 1.0</text>
+<text x="33.528" y="5.08" size="1.27" layer="21" font="vector" rot="R90">Vcc</text>
+<text x="3.048" y="5.08" size="1.27" layer="21" font="vector" rot="R90">Gnd</text>
+<text x="30.988" y="5.08" size="1.27" layer="21" font="vector" rot="R90">SCK</text>
+<text x="25.908" y="5.08" size="1.27" layer="21" font="vector" rot="R90">SI</text>
+<text x="28.448" y="5.08" size="1.27" layer="21" font="vector" rot="R90">SO</text>
+<text x="23.368" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/CS</text>
+<text x="21.082" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/INT</text>
+<text x="16.002" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/TX0</text>
+<text x="13.462" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/TX1</text>
+<text x="10.922" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/TX2</text>
+<text x="8.128" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/RX0</text>
+<text x="5.588" y="5.08" size="1.27" layer="21" font="vector" rot="R90">/RX1</text>
+<text x="18.542" y="5.08" size="1.27" layer="21" font="vector" rot="R90">SOF</text>
+<text x="47.752" y="31.242" size="0.8128" layer="21" font="vector" rot="R180">/INT</text>
+<text x="41.91" y="31.242" size="0.8128" layer="21" font="vector" rot="R180">TXD</text>
+<text x="36.068" y="31.242" size="0.8128" layer="21" font="vector" rot="R180">RXD</text>
+<text x="37.338" y="7.366" size="1.27" layer="21" font="vector">CAN/NMRAnet</text>
+<text x="4.572" y="31.496" size="0.8128" layer="21" font="vector" rot="R180">Vcc</text>
+<text x="10.414" y="31.496" size="0.8128" layer="21" font="vector" rot="R180">CANH</text>
+<text x="15.24" y="31.496" size="0.8128" layer="21" font="vector" rot="R180">CANL</text>
+<text x="20.32" y="31.496" size="0.8128" layer="21" font="vector" rot="R180">GND</text>
 <text x="48.768" y="42.418" size="0.8128" layer="21" font="vector" rot="R180">Blue</text>
 <text x="42.164" y="42.418" size="0.8128" layer="21" font="vector" rot="R180">GRN</text>
 <text x="37.338" y="42.418" size="0.8128" layer="21" font="vector" rot="R180">ORANGE</text>
-<text x="12.192" y="24.892" size="0.8128" layer="48" font="vector" rot="R180">16Mhz Res</text>
+<text x="12.192" y="24.892" size="0.8128" layer="21" font="vector" rot="R180">16Mhz Res</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -761,15 +761,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.622" y="28.956" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="26.924" y="24.638" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED1" library="MCP" package="Q62902-B155" value="" x="35.306" y="44.196" smashed="yes" rot="R270">
+<element name="LED1" library="MCP" package="Q62902-B155" value="O" x="35.306" y="44.196" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.576" y="40.259" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.861" y="39.751" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="LED2" library="MCP" package="Q62902-B155" value="" x="41.402" y="44.196" smashed="yes" rot="R270">
+<element name="LED2" library="MCP" package="Q62902-B155" value="G" x="41.402" y="44.196" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.672" y="40.259" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="36.957" y="39.751" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="LED3" library="MCP" package="Q62902-B155" value="" x="47.498" y="44.196" smashed="yes" rot="R270">
+<element name="LED3" library="MCP" package="Q62902-B155" value="B" x="47.498" y="44.196" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.022" y="40.259" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="43.053" y="39.751" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -781,7 +781,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.972" y="13.081" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="30.734" y="14.732" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="J1" library="SparkFun" package="1X13" value="M13" x="33.02" y="2.54" smashed="yes" rot="R180"/>
+<element name="J1" library="SparkFun" package="1X13" value="0.100" x="33.02" y="2.54" smashed="yes" rot="R180"/>
 <element name="CANPWR" library="pinhead" package="1X02" value="" x="2.794" y="27.432" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.0828" y="23.9522" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="5.969" y="24.892" size="1.27" layer="27" rot="R90"/>
