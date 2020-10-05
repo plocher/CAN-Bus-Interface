@@ -5265,7 +5265,7 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <part name="V12" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun" deviceset="M13" device="" value="0.100"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="CANPWR" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="CANPWR" library="pinhead" deviceset="PINHD-1X2" device="" value="0.100"/>
 </parts>
 <sheets>
 <sheet>
